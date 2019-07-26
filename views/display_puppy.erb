@@ -1,5 +1,17 @@
-<body>
-  <p>Puppy Name: <%= @name %></p>
-  <p>Puppy Breed: <%= @breed %></p>
-  <p>Puppy Age: <%= @age %> months</p>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Puppy on Display!</title>
+  </head>
+  <body>
+    <p>Puppy Name: <%= @pup.name %></p>
+    <p>Puppy Breed: <%= @pup.breed %></p>
+    <p>Puppy Age: <%= @pup.months_old %> months</p>
+  </body>
+  <footer>
+    <a href="/">Back to Homepage</a>
+  </footer>
+</html>
